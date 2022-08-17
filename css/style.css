@@ -1,0 +1,19 @@
+/* Image */
+
+img {
+  max-width: 100%;
+}
+
+.resize {
+  width: 45px;
+  height: 45px;
+}
+
+.navbar-nav {
+  margin-top: 3px !important;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
