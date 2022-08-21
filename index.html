@@ -137,8 +137,11 @@
       </div>
     </section>
 
-    <!-- Carousel -->
-    <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
       <ol class="carousel-indicators">
         <li
           data-target="#carouselExampleIndicators"
@@ -150,25 +153,19 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="box">
-            <img src="./assets/macbook.jpg" class="img-rpv" alt="img" />
-          </div>
+          <img src="./assets/mac.jpg" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <div class="box">
-            <img src="./assets/phone.jpg" class="img-rpv" alt="img" />
-          </div>
+          <img src="./assets/macbook.jpg" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <div class="box">
-            <img src="./assets/mac.jpg" class="img-rpv" alt="img" />
-          </div>
+          <img src="./assets/phone.jpg" class="d-block w-100" alt="..." />
         </div>
       </div>
       <a
         class="carousel-control-prev"
-        href="#carouselExampleIndicators"
-        role="button"
+        type="button"
+        data-target="#carouselExampleIndicators"
         data-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -176,8 +173,8 @@
       </a>
       <a
         class="carousel-control-next"
-        href="#carouselExampleIndicators"
-        role="button"
+        type="button"
+        data-target="#carouselExampleIndicators"
         data-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
